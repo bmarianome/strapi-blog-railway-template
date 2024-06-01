@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_components_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "technology",
+        "design",
+        "business"
+      ],
+      "required": true
+    }
+  }
+}

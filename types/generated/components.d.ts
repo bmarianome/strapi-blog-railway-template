@@ -14,8 +14,7 @@ export interface ComponentsMetadata extends Schema.Component {
       'oneToMany',
       'api::author.author'
     >;
-    category: Attribute.Enumeration<['technology', 'design', 'business']> &
-      Attribute.Required;
+    category: Attribute.String;
   };
 }
 

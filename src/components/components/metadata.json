@@ -20,13 +20,7 @@
       "target": "api::author.author"
     },
     "category": {
-      "type": "enumeration",
-      "enum": [
-        "technology",
-        "design",
-        "business"
-      ],
-      "required": true
+      "type": "string"
     }
   }
 }

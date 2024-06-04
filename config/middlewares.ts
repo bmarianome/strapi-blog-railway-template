@@ -14,9 +14,9 @@ export default ({ env }) => [
             "blob:",
             "dl.airtable.com",
             `${env("AWS_BUCKET")}` +
-              ".s3." +
-              `${env("AWS_REGION")}` +
-              ".amazonaws.com",
+            ".s3." +
+            `${env("AWS_REGION")}` +
+            ".amazonaws.com",
           ],
           "media-src": [
             "'self'",
@@ -24,9 +24,9 @@ export default ({ env }) => [
             "blob:",
             "dl.airtable.com",
             `${env("AWS_BUCKET")}` +
-              ".s3." +
-              `${env("AWS_REGION")}` +
-              ".amazonaws.com",
+            ".s3." +
+            `${env("AWS_REGION")}` +
+            ".amazonaws.com",
           ],
           upgradeInsecureRequests: null,
         },
